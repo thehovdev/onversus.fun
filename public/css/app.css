@@ -1,0 +1,198 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);.navbar-brand {
+  font-weight: bold;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.team-name {
+  z-index: 9999;
+  font-size: 1.2em;
+  color: #505050;
+}
+
+.team-votes {
+  z-index: 9999;
+  color: #505050;
+}
+
+.btn-create {
+  width: 100%;
+}
+
+.maincitate {
+  text-align: center;
+}
+
+.battlemainparent .versuscitate {
+  background: #E8E8E8;
+  padding: 5px;
+  margin: 15px;
+  font-size: 4em;
+  text-align: center;
+  line-height: 130px;
+  height: 140px;
+}
+
+.battlemainparent .versusparent {
+  background: #E8E8E8;
+  padding: 5px;
+  margin: 15px;
+  border-radius: 3px;
+  border: 1px solid #C8C8C8;
+  -webkit-box-shadow: 5px 5px #C8C8C8;
+          box-shadow: 5px 5px #C8C8C8;
+}
+
+.battlemainparent .versusparent .versusbody .vsteam {
+  cursor: pointer;
+  background: white;
+  width: auto;
+  height: 130px;
+  padding: 5px;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2em;
+  font-family: arial;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.battlemainparent .versusparent .versusbody .vsteam img {
+  max-width: 100px;
+  position: absolute;
+}
+
+.battlemainparent .versusparent .versusbody .vsteam:hover {
+  background: #DCDCDC;
+}
+
+.battlemainparent .versusparent .versusbody .versus {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 5px;
+  color: #343A40;
+  font-weight: bold;
+  font-size: 2em;
+  font-family: arial;
+  text-align: center;
+}
+
+.battlemainparent .versusparent .versusmeta .commentsparent {
+  padding: 5px;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+}
+
+.battledetailparent .versuscitate {
+  padding: 5px;
+  margin: 15px;
+  font-size: 4em;
+  text-align: center;
+  line-height: 180px;
+  height: 190px;
+}
+
+.battledetailparent .versusparent {
+  background: #E8E8E8;
+  padding: 5px;
+  margin: 15px;
+  border-radius: 3px;
+  border: 1px solid #C8C8C8;
+}
+
+.battledetailparent .versusparent .versusbody .vsteam {
+  cursor: pointer;
+  background: white;
+  width: auto;
+  height: 180px;
+  padding: 5px;
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  font-family: arial;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.battledetailparent .versusparent .versusbody .vsteam img {
+  max-width: 100px;
+  position: absolute;
+}
+
+.battledetailparent .versusparent .versusbody .vsteam:hover {
+  background: #DCDCDC;
+}
+
+.battledetailparent .versusparent .versusbody .versus {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 5px;
+  color: #343A40;
+  font-weight: bold;
+  font-size: 2em;
+  font-family: arial;
+  text-align: center;
+}
+
+.battledetailparent .versusparent .versusmeta .commentsparent {
+  padding: 5px;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+}
+
+.row-first {
+  margin-top: 60px;
+}
+
+.navbar-laravel {
+  background-color: #fff;
+  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.black {
+  background: black;
+}
+
+.red {
+  background: red;
+}
+
