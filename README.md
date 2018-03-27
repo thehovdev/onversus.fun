@@ -1,14 +1,13 @@
 # onversus.fun
 
-<h1>simple laravel + vue.js webapplication for vote battle</h1>
+<h2>simple laravel + vue.js webapplication for vote battle</h2>
 
 <ul>
-  <li>1 - fetch master branch </li>
-  <li>1 - fetch master branch</li>
-  <li>2 - create new laravel app "laravel new appname" & configure it</li>
-  <li>3 - merge with master branch</li>
-  <li>4 - fix conflicts in each file with git checkout --theirs reponame/master</li>
-  <li>5 - config database</li>
-  <li>6 - php artisan migrate</li>
-  <li>7 - start to use & develop</li>
+  <li>fetch master branch</li>
+  <li>create new laravel app "laravel new appname" & configure it</li>
+  <li>merge with master branch</li>
+  <li>fix conflicts in each file with git checkout --theirs reponame/master</li>
+  <li>config database</li>
+  <li>php artisan migrate</li>
+  <li>start to use & develop</li>
 </ul>
