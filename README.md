@@ -1,6 +1,6 @@
 # onversus.fun
 
-<h2>simple laravel + vue.js webapplication for vote battle</h2>
+<h2>Простое приложение на laravel + vue.js для холиваров и батлов с голосованиями</h2>
 
 <ul>
   <li>fetch master branch</li>
