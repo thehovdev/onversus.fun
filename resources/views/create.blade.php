@@ -4,8 +4,8 @@
 @section('facebook_meta')
 <meta property="og:url"           content="{{ currentUrl() }}" />
 <meta property="og:type"          content="website" />
-<meta property="og:title"         content="Onversus Battle" />
-<meta property="og:description"   content="Создай батл и выясни кто круче" />
+<meta property="og:description"   content="Onversus Battle" />
+<meta property="og:title"         content="Создай батл и выясни кто круче" />
 <meta property="og:image"         content="<?php echo asset("images/opg_image.jpg")?>"/>
 @endsection
 
