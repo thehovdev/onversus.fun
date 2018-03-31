@@ -31,8 +31,11 @@
                     <div class="versusbody">
                         <div  v-on:click="vote({{ $battle->id }}, 'first_team_votes')" class="vsteam">
                             <img src="<?php echo asset("storage/images/$battle->first_team_img")?>" class="vsteamimage"></img>
-                            <div class="team-name">{{ $battle->first_team }}</div>
-                            <div class="team-votes" ref="first_team_votes_{{ $battle->id }}">{{ $battle->first_team_votes }}</div>
+                            <div class="team-name">{{ $battle->first_team }}
+
+                                <div class="team-votes" ref="first_team_votes_{{ $battle->id }}">{{ $battle->first_team_votes }}</div>
+
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -47,8 +50,12 @@
                     <div class="versusbody">
                         <div v-on:click="vote({{ $battle->id }}, 'second_team_votes')" class="vsteam">
                             <img src="<?php echo asset("storage/images/$battle->second_team_img")?>" class="vsteamimage"></img>
-                            <div class="team-name">{{ $battle->second_team }}</div>
-                            <div class="team-votes" ref="second_team_votes_{{ $battle->id }}">{{ $battle->second_team_votes }}</div>
+                            <div class="team-name">{{ $battle->second_team }}
+
+                                <div class="team-votes" ref="second_team_votes_{{ $battle->id }}">{{ $battle->second_team_votes }}</div>
+
+
+                            </div>
                         </div>
                     </div>
                 </div>
