@@ -1,4 +1,8 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);.navbar-brand {
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);.row-first {
+  margin-top: 60px;
+}
+
+.navbar-brand {
   font-weight: bold;
 }
 
@@ -7,6 +11,9 @@
 }
 
 .team-name {
+  width: 50%;
+  position: absolute;
+  right: 15%;
   z-index: 9999;
   font-size: 1.2em;
   color: #505050;
@@ -176,10 +183,6 @@
   font-weight: bold;
   font-size: 1em;
   text-align: center;
-}
-
-.row-first {
-  margin-top: 60px;
 }
 
 .navbar-laravel {

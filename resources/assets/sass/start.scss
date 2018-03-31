@@ -1,32 +1,36 @@
 $versusblock_width : 200px;
 
+.row-first {
+    margin-top: 60px;
+}
+
+
 .navbar-brand {
     font-weight: bold;
 }
-
 .text-center {
     text-align: center;
 }
-
 .team-name {
+    width: 50%;
+    position: absolute;
+    right: 15%;
     z-index: 9999;
     font-size: 1.2em;
     color: #505050;
 }
-
 .team-votes {
     z-index: 9999;
     color: #505050;
 }
 
-
 .btn-create {
     width: 100%;
 }
-
 .maincitate {
     text-align: center;
 }
+
 .battlemainparent {
     .versuscitate {
         background: #E8E8E8;
@@ -98,8 +102,6 @@ $versusblock_width : 200px;
 
     }
 }
-
-
 .battledetailparent {
     .versuscitate {
         // background: #E8E8E8;
@@ -171,10 +173,4 @@ $versusblock_width : 200px;
         }
 
     }
-}
-
-
-
-.row-first {
-    margin-top: 60px;
 }
