@@ -12,7 +12,7 @@
 @section('content')
 <div class="row row-first">
     <div class="battlemainparent">
-        
+
         <app-citate></app-citate>
         @foreach($battle as $item)
             <div class="col-md-4">
@@ -20,16 +20,23 @@
                 <div class="versusbody">
                     <div v-on:click="vote({{ $item->id }}, 'first_team_votes')" class="vsteam">
                         <img src="storage/images/{{ $item->first_team_img }}" class="vsteamimage">
-                        <div class="team-name">{{ $item->first_team }}</div>
+                        <div class="team-name">{{ $item->first_team }}
+
                         <div class="team-votes" ref="first_team_votes_{{ $item->id }}">{{ $item->first_team_votes }}</div>
+
+                        </div>
+
                     </div>
                     <div class="versus">
                         VS
                     </div>
                     <div v-on:click="vote({{ $item->id}}, 'second_team_votes')" class="vsteam">
                         <img src="storage/images/{{ $item->second_team_img }}" class="vsteamimage">
-                        <div class="team-name">{{ $item->second_team }}</div>
-                        <div class="team-votes" ref="second_team_votes_{{ $item->id }}">{{ $item->second_team_votes }}</div>
+                        <div class="team-name">{{ $item->second_team }}
+
+                            <div class="team-votes" ref="second_team_votes_{{ $item->id }}">{{ $item->second_team_votes }}</div>
+
+                        </div>
                     </div>
                 </div>
                 <div class="versusmeta">
