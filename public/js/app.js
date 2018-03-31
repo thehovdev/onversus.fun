@@ -13982,6 +13982,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_NavbarComponent_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__components_NavbarComponent_vue__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_CitateComponent_vue__ = __webpack_require__(51);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_CitateComponent_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__components_CitateComponent_vue__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_NameComponent_vue__ = __webpack_require__(58);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_NameComponent_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__components_NameComponent_vue__);
 window.Vue = __webpack_require__(14);
 
 __webpack_require__(17);
@@ -13999,10 +14001,12 @@ __webpack_require__(41);
 
 
 
+
 // Vue.component('app-articles', Articles);
 Vue.component('app-start', __WEBPACK_IMPORTED_MODULE_0__components_StartComponent_vue___default.a);
 Vue.component('app-navbar', __WEBPACK_IMPORTED_MODULE_1__components_NavbarComponent_vue___default.a);
 Vue.component('app-citate', __WEBPACK_IMPORTED_MODULE_2__components_CitateComponent_vue___default.a);
+Vue.component('app-name', __WEBPACK_IMPORTED_MODULE_3__components_NameComponent_vue___default.a);
 
 // логика
 var app = new Vue({
@@ -47759,9 +47763,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "maincitate" }, [
-      _c("h1", [_vm._v("Голосуй сколько захочешь !")]),
-      _vm._v(" "),
-      _c("h2", [_vm._v("Никаких ограничений")])
+      _c("h2", [_vm._v("Голосуй без ограничений!")])
     ])
   }
 ]
@@ -47779,6 +47781,108 @@ if (false) {
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
+
+/***/ }),
+/* 54 */,
+/* 55 */,
+/* 56 */,
+/* 57 */,
+/* 58 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var disposed = false
+var normalizeComponent = __webpack_require__(2)
+/* script */
+var __vue_script__ = __webpack_require__(59)
+/* template */
+var __vue_template__ = __webpack_require__(60)
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = null
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __vue_script__,
+  __vue_template__,
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+Component.options.__file = "resources/assets/js/components/NameComponent.vue"
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-604805ea", Component.options)
+  } else {
+    hotAPI.reload("data-v-604805ea", Component.options)
+  }
+  module.hot.dispose(function (data) {
+    disposed = true
+  })
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 59 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+    mounted: function mounted() {
+        console.log('Component mounted.');
+    }
+});
+
+/***/ }),
+/* 60 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "mainname" }, [
+      _c("h1", [
+        _c("span", { staticStyle: { color: "#2c6ccc" } }, [_vm._v("on")]),
+        _vm._v("versus")
+      ])
+    ])
+  }
+]
+render._withStripped = true
+module.exports = { render: render, staticRenderFns: staticRenderFns }
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+    require("vue-hot-reload-api")      .rerender("data-v-604805ea", module.exports)
+  }
+}
 
 /***/ })
 /******/ ]);

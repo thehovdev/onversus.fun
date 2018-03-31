@@ -12,7 +12,7 @@
 @section('content')
 <div class="row row-first">
     <div class="battlemainparent">
-
+        <app-name></app-name>
         <app-citate></app-citate>
         @foreach($battle as $item)
             <div class="col-md-4">

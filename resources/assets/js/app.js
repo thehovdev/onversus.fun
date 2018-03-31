@@ -15,12 +15,14 @@ require('./route.js');
 import Start from './components/StartComponent.vue'
 import Navbar from './components/NavbarComponent.vue'
 import Citate from './components/CitateComponent.vue'
+import Name from './components/NameComponent.vue'
 
 
 // Vue.component('app-articles', Articles);
 Vue.component('app-start', Start);
 Vue.component('app-navbar', Navbar);
 Vue.component('app-citate', Citate);
+Vue.component('app-name', Name);
 
 // логика
 const app = new Vue({
