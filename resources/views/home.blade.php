@@ -14,6 +14,9 @@
     <div class="battlemainparent">
         <app-name></app-name>
         <app-citate></app-citate>
+        <div class="text-center">
+            <a href="{{ route('battle.create') }}" class="btn btn-success btn-lg">Создать Новый Батл</a>
+        </div>
         @foreach($battle as $item)
             <div class="col-md-4">
             <div class="versusparent" id="{{ $item->id }}">
