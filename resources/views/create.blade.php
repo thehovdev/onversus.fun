@@ -18,8 +18,7 @@
 
         <form method="post" class="form-horizontal" action="{{ route('battle.store') }}"
         enctype="multipart/form-data">
-            {{ csrf_field() }}
-
+            @csrf
 
             <div class="form-group">
                 <div class="col-sm-10">
@@ -30,7 +29,6 @@
 
                     <input type="text" class="text-center form-control" id="team1" placeholder="Команда 1" name="team1">
                     <input type="file" name="first_team_img" id="first_team_img">
-                    <input type="hidden" value="{{ csrf_token() }}" name="_token">
                 </div>
             </div>
 
@@ -48,7 +46,6 @@
                 <div class="col-sm-10">
                     <input type="text" class="text-center form-control" id="team2" placeholder="Команда 2" name="team2">
                     <input type="file" name="second_team_img" id="second_team_img">
-                    <input type="hidden" value="{{ csrf_token() }}" name="_token">
                 </div>
             </div>
 

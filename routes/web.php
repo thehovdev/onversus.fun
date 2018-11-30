@@ -20,7 +20,7 @@ use App\Battle;
 Route::get('/', function () {
 
     $battle = new Battle;
-    $battle = $battle->orderByDesc('updated_at')->paginate(10);
+    $battle = $battle->latest('updated_at')->paginate(10);
 
     return view('home')
         ->with('battle', $battle);
