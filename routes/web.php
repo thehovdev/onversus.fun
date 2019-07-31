@@ -12,11 +12,6 @@ use App\Battle;
 |
 */
 
-//
-// Route::get('/', function () {
-//     return view('index');
-// });
-
 Route::get('/', function () {
 
     $battle = new Battle;
